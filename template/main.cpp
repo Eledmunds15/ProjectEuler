@@ -1,19 +1,20 @@
 #include <iostream>
 #include <cmath>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 int main() {
+    
+    auto start = high_resolution_clock::now();
 
-    cout << "Project Euler - Problem X:\n";
+    // Code Here!
 
-    int input = 0;
+    auto end = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(end - start);
 
-    cout << "Input: ";
-    cin >> input;
-
-    cout << "The answer for " << input << " is: " << ___ << "\n";
-
-    return 0
+    cout << "Execution time: " << duration.count() << " microseconds\n";
+    return 0;
 
 }
