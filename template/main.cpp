@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::cout << "Project Euler - Problem 1:\n";
+    std::cout << "Project Euler - Problem X:\n";
 
     int input = 0;
 
