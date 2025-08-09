@@ -10,5 +10,6 @@ int main() {
     std::cout << "Input: ";
     std::cin >> input;
 
-    return 0;
+    std::cout << "The answer for " << input << " is: " << ___ << "\n";
+
 }
