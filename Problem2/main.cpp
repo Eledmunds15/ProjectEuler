@@ -1,14 +1,16 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main() {
 
-    std::cout << "Project Euler - Problem 1:\n";
+    cout << "Project Euler - Problem 1:\n";
 
     int input = 0;
 
-    std::cout << "Input: ";
-    std::cin >> input;
+    cout << "Input: ";
+    cin >> input;
 
     int sum = 0, a = 1, b = 2;
 
@@ -25,7 +27,7 @@ int main() {
     
     }
 
-    std::cout << "The answer for " << input << " is: " << sum << "\n";
+    cout << "The answer for " << input << " is: " << sum << "\n";
 
     return 0;
 }
